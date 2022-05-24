@@ -1,0 +1,22 @@
+{
+  "name": "wardrobe",
+  "version": "0.0.1",
+  "description": "My personal Sass library project",
+  "main": "src/_wardrobe.scss",
+  "scripts": {
+    "check": "prettier --check src/**/*.scss",
+    "compile": "sass src/_wardrobe.scss compiled/wardrobe.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoostKersjes/wardrobe.git"
+  },
+  "homepage": "https://github.com/JoostKersjes/wardrobe",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.52.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
